@@ -1,4 +1,16 @@
-# Probabilistic Surrounding Keyboard Layout (PSKL)
+**Probabilistic Surrounding Keyboard Layout (PSKL)**
+
+A precise solution to touchscreen typing errors that shifts the focus from predicting words using large linguistic dictionaries to calculating physical probability around the pressed key coordinates.
+
+### An 8-Direction Surrounding Probability Framework for Reducing Touchscreen Typing Errors
+
+A structural solution to touchscreen typing errors that focuses on local spatial probability around the target key, rather than relying solely on heavy global word-prediction dictionaries.
+
+## Core Concept
+* **Local Focus:** Minimizes computing overhead by analyzing only the "8 surrounding keys" of the target coordinate to eliminate spatial noise.
+* **Weight Distribution:** Assigns maximum probability weight to the "left and right horizontal keys," where fat-finger errors from thumb-typing occur most frequently.
+* **Universal Framework:** Built as a mathematical model applicable across all 8 major worldwide keyboard layouts (including QWERTY, Thai Kedmanee, Cyrillic, etc.) using the same core sensor logic.
+
 ### ระบบลดการพิมพ์ผิดด้วยหลักความน่าจะเป็นจากอักษรล้อมรอบ 8 ทิศทาง
 
 แนวคิดการแก้ปัญหาการพิมพ์ผิดบนหน้าจอสัมผัส (Touchscreen) ที่ตรงจุด โดยเปลี่ยนจากการเดาคำล่วงหน้าในคลังคำศัพท์ขนาดใหญ่ มาเป็นการคำนวณความน่าจะเป็นเชิงกายภาพรอบปุ่มกด
